@@ -32,7 +32,12 @@ class LinkedList:
             self.tail.next_node = new_node
             self.tail = new_node
 
+<<<<<<< HEAD
         return self
+=======
+  def contains(self, value):
+    pass
+>>>>>>> 009b2189bcd2902a3392c78c3c876c416c8f8f5f
 
     def remove_head(self):
         if not self.head:
